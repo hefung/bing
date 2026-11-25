@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@types/node':
-        specifier: ^26.6.6
-        version: 26.6.6
+        specifier: ^26.6.7
+        version: 26.6.7
       '@types/node-fetch':
         specifier: ^2.6.13
         version: 2.6.13
@@ -34,7 +34,7 @@ importers:
         version: 7.0.2
       vitepress:
         specifier: ^1.6.4
-        version: 1.6.4(@algolia/client-search@5.65.0)(@types/node@26.6.6)(postcss@8.5.33)(sass-embedded@1.108.2)(sass@1.108.2)(search-insights@2.17.3)(typescript@7.0.2)
+        version: 1.6.4(@algolia/client-search@5.65.0)(@types/node@26.6.7)(postcss@8.5.33)(sass-embedded@1.108.2)(sass@1.108.2)(search-insights@2.17.3)(typescript@7.0.2)
       vitepress-plugin-image-viewer:
         specifier: ^1.1.6
         version: 1.1.6
@@ -457,8 +457,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@iconify-json/simple-icons@1.2.103':
-    resolution: {integrity: sha512-FMn+aVTsqQdYOwf5reCXXtfWapb+4ijI6WrU8ej1spWXWfA+d41TBXcKagHFwiHZyqt7kP7F04AiG1dYj2R06w==}
+  '@iconify-json/simple-icons@1.2.104':
+    resolution: {integrity: sha512-WBozLa9oBsb6XuY+lnH7maIiYmabee0k276PvVVw+34oGAXNRnfJeilEOB4iQs2wFNU/8M/vQFVy66SHGJaDRw==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -746,8 +746,8 @@ packages:
   '@types/node-fetch@2.6.13':
     resolution: {integrity: sha512-QGpRVpzSaUs30JBSGPjOg4Uveu384erbHBoT1zeONvyCfwQxIkUshLAOqN/k9EjGviPRmWTTe6aH2qySWKTVSw==}
 
-  '@types/node@26.6.6':
-    resolution: {integrity: sha512-MzQj+8Kx3XI40OmUAE6Qoh58ZMNstNNMwn2nfd3qWsfe7nDNSqJNzes4njhz6AHwrSHOffSLwXU6yb474Q4aog==}
+  '@types/node@26.6.7':
+    resolution: {integrity: sha512-tovuRfrUILu6v46bMG+BgXxMvsqPBx2WO2as8Rpln+JTff1dbexMtAM4KFTejmL0axsnSWViCW7MecUQpLuBRA==}
 
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
@@ -2001,7 +2001,7 @@ snapshots:
   '@esbuild/win32-x64@0.27.7':
     optional: true
 
-  '@iconify-json/simple-icons@1.2.103':
+  '@iconify-json/simple-icons@1.2.104':
     dependencies:
       '@iconify/types': 2.0.0
 
@@ -2217,10 +2217,10 @@ snapshots:
 
   '@types/node-fetch@2.6.13':
     dependencies:
-      '@types/node': 26.6.6
+      '@types/node': 26.6.7
       form-data: 4.0.6
 
-  '@types/node@26.6.6':
+  '@types/node@26.6.7':
     dependencies:
       undici-types: 8.9.0
 
@@ -2290,9 +2290,9 @@ snapshots:
 
   '@ungap/structured-clone@1.4.0': {}
 
-  '@vitejs/plugin-vue@5.2.4(vite@5.4.21(@types/node@26.6.6)(sass-embedded@1.108.2)(sass@1.108.2))(vue@3.5.46(typescript@7.0.2))':
+  '@vitejs/plugin-vue@5.2.4(vite@5.4.21(@types/node@26.6.7)(sass-embedded@1.108.2)(sass@1.108.2))(vue@3.5.46(typescript@7.0.2))':
     dependencies:
-      vite: 5.4.21(@types/node@26.6.6)(sass-embedded@1.108.2)(sass@1.108.2)
+      vite: 5.4.21(@types/node@26.6.7)(sass-embedded@1.108.2)(sass@1.108.2)
       vue: 3.5.46(typescript@7.0.2)
 
   '@vue/compiler-core@3.5.46':
@@ -3108,13 +3108,13 @@ snapshots:
 
   viewerjs@1.15.2: {}
 
-  vite@5.4.21(@types/node@26.6.6)(sass-embedded@1.108.2)(sass@1.108.2):
+  vite@5.4.21(@types/node@26.6.7)(sass-embedded@1.108.2)(sass@1.108.2):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.5.33
       rollup: 4.68.8
     optionalDependencies:
-      '@types/node': 26.6.6
+      '@types/node': 26.6.7
       fsevents: 2.3.3
       sass: 1.108.2
       sass-embedded: 1.108.2
@@ -3123,16 +3123,16 @@ snapshots:
     dependencies:
       viewerjs: 1.15.2
 
-  vitepress@1.6.4(@algolia/client-search@5.65.0)(@types/node@26.6.6)(postcss@8.5.33)(sass-embedded@1.108.2)(sass@1.108.2)(search-insights@2.17.3)(typescript@7.0.2):
+  vitepress@1.6.4(@algolia/client-search@5.65.0)(@types/node@26.6.7)(postcss@8.5.33)(sass-embedded@1.108.2)(sass@1.108.2)(search-insights@2.17.3)(typescript@7.0.2):
     dependencies:
       '@docsearch/css': 3.8.2
       '@docsearch/js': 3.8.2(@algolia/client-search@5.65.0)(search-insights@2.17.3)
-      '@iconify-json/simple-icons': 1.2.103
+      '@iconify-json/simple-icons': 1.2.104
       '@shikijs/core': 2.5.0
       '@shikijs/transformers': 2.5.0
       '@shikijs/types': 2.5.0
       '@types/markdown-it': 14.2.0
-      '@vitejs/plugin-vue': 5.2.4(vite@5.4.21(@types/node@26.6.6)(sass-embedded@1.108.2)(sass@1.108.2))(vue@3.5.46(typescript@7.0.2))
+      '@vitejs/plugin-vue': 5.2.4(vite@5.4.21(@types/node@26.6.7)(sass-embedded@1.108.2)(sass@1.108.2))(vue@3.5.46(typescript@7.0.2))
       '@vue/devtools-api': 7.7.10
       '@vue/shared': 3.5.46
       '@vueuse/core': 12.8.2(typescript@7.0.2)
@@ -3141,7 +3141,7 @@ snapshots:
       mark.js: 8.11.1
       minisearch: 7.2.0
       shiki: 2.5.0
-      vite: 5.4.21(@types/node@26.6.6)(sass-embedded@1.108.2)(sass@1.108.2)
+      vite: 5.4.21(@types/node@26.6.7)(sass-embedded@1.108.2)(sass@1.108.2)
       vue: 3.5.46(typescript@7.0.2)
     optionalDependencies:
       postcss: 8.5.33

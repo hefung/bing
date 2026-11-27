@@ -51,8 +51,8 @@ export default defineConfig({
       options: {
         translations: {
           button: {
-            buttonText: "搜索文档",
-            buttonAriaLabel: "搜索文档",
+            buttonText: "搜索壁纸",
+            buttonAriaLabel: "搜索壁纸",
           },
           modal: {
             noResultsText: "没有找到结果",
